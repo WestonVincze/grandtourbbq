@@ -1,0 +1,246 @@
+{
+	"events": [
+		{
+			"title": "Moffat School Cambridge (Fun Day)",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-06-04T16:30:00+00:00",
+			"end": "2024-06-04T18:30:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Super Pull Paris",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-06-08T00:00:00+00:00",
+			"end": "2024-06-08T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Highland Pines",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-06-14T00:00:00+00:00",
+			"end": "2024-06-16T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Anderson Therapy Services",
+			"desc": "Christie Conservation Area\n",
+			"location": "",
+			"start": "2024-06-22T12:00:00+00:00",
+			"end": "2024-06-22T17:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Capital Paving",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-06-27T16:00:00+00:00",
+			"end": "2024-06-27T19:30:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Maple Grove ",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-06-29T13:00:00+00:00",
+			"end": "2024-06-29T18:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Canada Day Brantford",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-07-01T00:00:00+00:00",
+			"end": "2024-07-01T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Rivers and Roots Paris ON",
+			"desc": "In progress\n",
+			"location": "",
+			"start": "2024-07-05T00:00:00+00:00",
+			"end": "2024-07-07T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Columns Plus ",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-07-11T11:00:00+00:00",
+			"end": "2024-07-11T13:30:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "KB Paris Mac N Cheese",
+			"desc": "KB Paris Mac N Cheese Application Required\n",
+			"location": "",
+			"start": "2024-07-13T00:00:00+00:00",
+			"end": "2024-07-14T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Crew Fest",
+			"desc": "\n",
+			"location": "Brantford Ontario",
+			"start": "2024-07-19T00:00:00+00:00",
+			"end": "2024-07-20T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Pine Valley Park",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-07-26T00:00:00+00:00",
+			"end": "2024-07-28T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Sunflower Fest Brantford",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-08-03T00:00:00+00:00",
+			"end": "2024-08-05T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Pine Valley Park",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-08-09T00:00:00+00:00",
+			"end": "2024-08-11T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Boots in the Creek",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-08-17T00:00:00+00:00",
+			"end": "2024-08-18T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Private Event ",
+			"desc": "Private event  Guelph\n",
+			"location": "",
+			"start": "2024-08-22T17:00:00+00:00",
+			"end": "2024-08-22T20:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Summer Break ",
+			"desc": "No staff – C/S travel, Ty - Wedding\n",
+			"location": "",
+			"start": "2024-08-23T00:00:00+00:00",
+			"end": "2024-08-25T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "wings and wheels",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-08-28T11:00:00+00:00",
+			"end": "2024-08-28T15:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Paris Fair",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-08-29T00:00:00+00:00",
+			"end": "2024-09-02T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Aberfoyle Fair",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-09-06T00:00:00+00:00",
+			"end": "2024-09-08T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Capital Paving ",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-09-12T16:00:00+00:00",
+			"end": "2024-09-12T19:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Wedding - Puslinch ",
+			"desc": "Application March 15\n",
+			"location": "",
+			"start": "2024-09-14T14:00:00+00:00",
+			"end": "2024-09-14T20:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Ancaster Fair",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-09-19T00:00:00+00:00",
+			"end": "2024-09-22T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Caledonia Fair",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-09-26T00:00:00+00:00",
+			"end": "2024-09-30T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Stroms ",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-10-05T00:00:00+00:00",
+			"end": "2024-10-05T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Stroms",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-10-06T00:00:00+00:00",
+			"end": "2024-10-06T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Rockton Fair",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-10-10T00:00:00+00:00",
+			"end": "2024-10-14T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Paris Christmas Market (Pending)",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-11-01T00:00:00+00:00",
+			"end": "2024-11-03T00:00:00+00:00",
+			"allDay": true
+		},
+		{
+			"title": "Waterdown Christmas Parade (pending)",
+			"desc": "\n",
+			"location": "",
+			"start": "2024-11-23T16:30:00+00:00",
+			"end": "2024-11-23T21:00:00+00:00",
+			"allDay": false
+		},
+		{
+			"title": "Catering (Paris)",
+			"desc": "\n",
+			"location": "",
+			"start": "2025-01-31T00:00:00+00:00",
+			"end": "2025-02-02T00:00:00+00:00",
+			"allDay": true
+		}
+	],
+	"timeZone": "UTC",
+	"timeZoneOffset": 0
+}
