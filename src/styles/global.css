@@ -1,0 +1,53 @@
+:root {
+  /** palette **/
+  /* --primary: #BC2531;  - from original site */
+  --primary: #FFFFFF;
+  --accent: #AD1A19;
+  --secondary: #E48413;
+  --bg-primary: #111111;
+  --bg-secondary: #252525;
+  --font-color: #CECECE;
+
+  /** sizes **/
+  --size-1: 5px;
+  --size-2: 10px;
+  --size-3: 15px;
+  --font-size-sm: 0.8rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.5rem;
+
+  /** fixed sizes **/
+  --gutter: 15px;
+  --max-width: 1200px;
+  --header-height: 65px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary);
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: var(--primary);
+}
+
+body {
+  color: var(--font-color);
+}

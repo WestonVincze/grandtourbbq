@@ -1,5 +1,6 @@
 <script>
   import { Events } from "../components/Events";
+	import Hero from "../components/Hero/Hero.svelte";
   // square integration POC
   /*
   const appId = 'your-app-id';
@@ -43,16 +44,11 @@
   */
 </script>
 
-<div class="container">
-  <h2>Upcoming Events</h2>
-  <Events />
+<Hero heading="Grand Tour BBQ on the Grand River!" />
+
+<div class="bg-primary">
+  <div class="container">
+    <h2>Upcoming Events</h2>
+    <Events />
+  </div>
 </div>
-
-<style>
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-</style>
-
-

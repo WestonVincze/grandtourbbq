@@ -92,7 +92,7 @@
   }
 
   .red-emphasis {
-    color: rgb(145, 26, 36);
+    color: var(--accent);
     font-size: 1.8rem;
   }
 
