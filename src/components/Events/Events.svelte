@@ -1,5 +1,6 @@
 <script lang="ts">
   import EventData from "./EventData.json";
+  import { Pagination } from "../Pagination";
 
   type Event = {
     title: string,
@@ -53,9 +54,12 @@
       timeRange: event.allDay ? "All Day" : timeFormat.formatRange(start, end),
     })
   })
+
+  let displayedEvents: Event[];
 </script>
 
-{#each events as event}
+{#if displayedEvents}
+{#each displayedEvents as event}
   <div class="event">
     <div>
       <span class="weekday-range">{event.weekdayRange}</span>
@@ -70,6 +74,9 @@
     </div>
   </div>
 {/each}
+{/if}
+
+<Pagination rows={events} perPage={6} bind:trimmedRows={displayedEvents} />
 
 <style>
   .event {
