@@ -24,7 +24,7 @@
       aria-label="left arrow icon" 
       aria-describedby="prev"
     >
-      <Icon name = 'arrow' direction="s" />
+      <Icon name='arrow' direction="s" />
     </button>
     <span id='prev' class='sr-only'>Load previous {perPage} rows</span>
     <p>{start + 1} - {end + 1} of {totalRows}</p>
@@ -33,7 +33,7 @@
       aria-label="right arrow icon" 
       aria-describedby="next"
     >
-      <Icon name = 'arrow' direction='n' />
+      <Icon name='arrow' direction='n' />
     </button>
     <span id='next' class='sr-only'>Load next {perPage} rows</span>
   </div>

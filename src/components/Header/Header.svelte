@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { Icon } from "../Icon";
   import Logo from "../../icons/Logo.svg";
 </script>
 
@@ -23,7 +24,6 @@
     </div>
 
     <div class="links">
-
     </div>
   </div>
 </nav>
