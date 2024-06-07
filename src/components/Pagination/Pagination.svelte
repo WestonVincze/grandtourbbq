@@ -63,7 +63,7 @@
   }
 
   .selected {
-      background-color: var(--accent-color)
+    background-color: var(--accent-color)
   }
 	
 	button {

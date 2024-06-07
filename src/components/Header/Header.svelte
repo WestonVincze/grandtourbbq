@@ -1,5 +1,5 @@
 <script lang="ts">
-
+  import Logo from "../../icons/Logo.svg";
 </script>
 
 <div class="top-info">
@@ -19,7 +19,7 @@
 <nav>
   <div class="nav-container container">
     <div class="brand">
-      LOGO
+      <img src={Logo} alt="Grand Tour BBQ Logo" />
     </div>
 
     <div class="links">
@@ -46,5 +46,9 @@
     justify-content: space-between;
     height: var(--header-height);
     color: var(--primary);
+  }
+  .brand img {
+    width: 65px;
+    height: auto;
   }
 </style>
