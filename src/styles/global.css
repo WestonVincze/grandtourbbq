@@ -20,6 +20,9 @@
   --gutter: 15px;
   --max-width: 1200px;
   --header-height: 65px;
+
+  /** fonts **/
+  --main-font: font-family: "Wellfleet", monospace;
 }
 
 * {
@@ -50,4 +53,5 @@ h1,h2,h3,h4,h5,h6 {
 
 body {
   color: var(--font-color);
+  font-family: var(--main-font);
 }
