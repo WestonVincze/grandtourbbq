@@ -2,6 +2,7 @@
   import { Events } from "../components/Events";
 	import Hero from "../components/Hero/Hero.svelte";
 	import Menu from "../components/Menu/Menu.svelte";
+  import { Datepicker } from "flowbite-svelte";
   // square integration POC
   /*
   const appId = 'your-app-id';
@@ -54,3 +55,5 @@
     <Menu />
   </div>
 </div>
+
+<Datepicker />
