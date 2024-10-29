@@ -1,6 +1,5 @@
 <script>
-	import { Footer } from '../components/Footer';
-	import { Header } from '../components/Header';
+	import { Header, Footer } from '$sections';
 	import '../styles/global.css';
 	import '../app.css';
 </script>

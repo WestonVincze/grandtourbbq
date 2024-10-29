@@ -1,16 +1,20 @@
 <script lang="ts">
-  import { Icon } from "../Icon";
-  import Logo from "../../icons/Logo.svg";
-	import SocialLinks from "../SocialLinks/SocialLinks.svelte";
+  import Logo from "$icons/Logo.svg";
+	import { SocialLinks } from "$components";
 </script>
 
 <div class="top-bar">
   <div class="container">
-    <span>
-      LOCATION
+    <span class="flex">
+      <img src="icons/location.svg" alt="Location Icon">
+      Wincey Mills, 31 Mechanic St, Paris, ON
     </span>
-    <span>
-      PHONE
+    <span class="flex">
+      Call for booking information | 
+      <a href="tel:">
+        <img src="icons/phone.svg" alt="Phone Icon" />
+        1 (800) 679-0026
+      </a>
     </span>
     <span>
       <SocialLinks />

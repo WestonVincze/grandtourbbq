@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Icon } from '../Icon';
+  import { Icon } from '$components';
 	
   export let rows;
   export let perPage;

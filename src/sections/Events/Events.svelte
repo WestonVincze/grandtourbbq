@@ -1,6 +1,6 @@
 <script lang="ts">
-  import EventData from "./EventData.json";
-  import { Pagination } from "../Pagination";
+  import { EventData } from "$data";
+  import { Pagination } from "$components";
 
   type Event = {
     title: string,
