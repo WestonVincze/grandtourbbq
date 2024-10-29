@@ -1,11 +1,11 @@
 :root {
-  /** palette **/
-  /* --primary: #BC2531;  - from original site */
+  /** color palette **/
   --primary: #FFFFFF;
   --accent: #AD1A19;
-  --secondary: #E48413;
-  --bg-primary: #111111;
-  --bg-secondary: #252525;
+  --secondary: #d2873c;
+  --black: #111111;
+  --gray-dark: #252525;
+  --gray-light: #CECECE;
   --font-color: #CECECE;
 
   /** sizes **/
@@ -21,8 +21,12 @@
   --max-width: 1200px;
   --header-height: 65px;
 
+  /** properties **/
+  --border-radius: 10px;
+
   /** fonts **/
-  --main-font: font-family: "Wellfleet", monospace;
+  /** --main-font: font-family: "Wellfleet", monospace; **/
+  --main-font: "Nanum Myeongjo", serif;
 }
 
 * {
@@ -40,11 +44,11 @@
 }
 
 .bg-primary {
-  background-color: var(--bg-primary);
+  background-color: var(--black);
 }
 
 .bg-secondary {
-  background-color: var(--bg-secondary);
+  background-color: var(--gray-dark);
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -54,4 +58,5 @@ h1,h2,h3,h4,h5,h6 {
 body {
   color: var(--font-color);
   font-family: var(--main-font);
+  font-style: normal;
 }

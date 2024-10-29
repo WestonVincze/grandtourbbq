@@ -49,7 +49,7 @@
   }
 
   nav {
-    background-color: var(--bg-secondary);
+    background-color: var(--black);
   }
   .nav-container {
     display: flex;
