@@ -1,5 +1,5 @@
 <script lang="ts">
-  import MenuData from "./MenuData.json";
+  import { MenuData } from "$data";
   // export let category: string;
   // export let description: string;
 
