@@ -1,5 +1,5 @@
 <script lang="ts">
-  export let path: string | null = null;
+  export let href: string | null = null;
   export let onClick: (() => void) | null = null;
   export let text: string;
   export let variant: "default" | "outlined" = "default";
@@ -15,7 +15,7 @@
 
 <a
   class="button {variant} {size}"
-  href={path || "#"}
+  href={href || "#"}
   on:click={handleClick}
 >
   {text}
