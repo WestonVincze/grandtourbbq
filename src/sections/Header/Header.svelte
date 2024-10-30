@@ -1,70 +1,87 @@
 <script lang="ts">
   import Logo from "$icons/Logo.svg";
-	import { SocialLinks } from "$components";
+	import { TopBar } from "./TopBar";
 </script>
 
-<div class="top-bar">
-  <div class="container">
-    <span class="flex">
-      <img src="icons/location.svg" alt="Location Icon">
-      Wincey Mills, 31 Mechanic St, Paris, ON
-    </span>
-    <span class="flex">
-      Call for booking information | 
-      <a href="tel:">
-        <img src="icons/phone.svg" alt="Phone Icon" />
-        1 (800) 679-0026
-      </a>
-    </span>
-    <span>
-      <SocialLinks />
-    </span>
-  </div>
+<div class="header">
+  <TopBar />
+
+  <nav>
+    <div class="container">
+      <div class="brand">
+        <img class="logo" src={Logo} alt="Grand Tour BBQ Logo" />
+        <span>Grand Tour BBQ</span>
+      </div>
+
+      <div class="links">
+        <a href="/catering">Catering</a>
+        <a href="/restaurant">Restaurant</a>
+        <a href="/events">Events</a>
+        <a href="/contact">Contact</a>
+      </div>
+    </div>
+  </nav>
 </div>
 
-<nav>
-  <div class="nav-container container">
-    <div class="brand">
-      <img src={Logo} alt="Grand Tour BBQ Logo" />
-      <span>Grand Tour BBQ</span>
-    </div>
-
-    <div class="links">
-      <a href="">Catering</a>
-      <a href="">Menu</a>
-      <a href="">Events</a>
-      <a href="">Contact Us</a>
-    </div>
-  </div>
-</nav>
-
 <style>
-  .top-bar {
-    background-color: var(--accent);
-    color: var(--primary);
+  .header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.65);
   }
-  .top-bar .container {
-    display: flex;
-    justify-content: space-between;
-  }
-
   nav {
     background-color: var(--black);
   }
-  .nav-container {
+  .container {
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: var(--header-height);
     color: var(--primary);
   }
   .brand {
     display: flex;
-  }
-  .brand img {
-    width: 65px;
-    height: auto;
+    gap: var(--size-2);
+    align-items: center;
   }
   .brand span {
+    font-size: var(--font-size-lg);
+    font-weight: 800;
     text-transform: uppercase;
+  }
+  .logo {
+    width: 100px;
+  }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--size-3);
+    font-size: var(--font-size-md);
+  }
+  .links a {
+    position: relative;
+  }
+  .links a::after {
+    content: "";
+    position: absolute;
+    left: 2%;
+    bottom: 0;
+    width: 0%;
+    height: 1.5px;
+    background-color: #FFF;
+    transition: width 0.3s;
+  }
+  .links a:hover::after {
+    width: 98%;
+  }
+  @media (min-width: 1530px) {
+    .logo {
+      position: absolute;
+      top: 5px;
+      right: calc(1280px + calc((100vw - 1280px) / 2));
+    }
   }
 </style>
