@@ -1,6 +1,5 @@
 <script>
 	import { Events, Hero, Menu } from "$sections";
-  import { Datepicker } from "flowbite-svelte";
   // square integration POC
   /*
   const appId = 'your-app-id';
@@ -53,5 +52,3 @@
     <Menu />
   </div>
 </div>
-
-<Datepicker />
