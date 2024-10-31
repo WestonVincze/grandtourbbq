@@ -22,6 +22,7 @@
   h3 {
     text-transform: uppercase;
     font-weight: 800;
+    margin-bottom: var(--size-1);
   }
   .links {
     display: flex;

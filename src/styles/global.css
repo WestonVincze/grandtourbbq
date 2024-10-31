@@ -23,6 +23,8 @@
 
   /** properties **/
   --border-radius: 10px;
+  --outer-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  --inner-highlight: inset -2px 3px 6px rgba(255, 255, 255, 0.15);
 
   /** fonts **/
   /** --main-font: font-family: "Wellfleet", monospace; **/

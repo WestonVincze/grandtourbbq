@@ -27,8 +27,7 @@
     font-weight: 800;
     text-transform: uppercase;
     border-radius: var(--border-radius);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), /* Outer shadow */
-                inset -2px 3px 6px rgba(255, 255, 255, 0.15); /* Inner shadow */
+    box-shadow: var(--outer-shadow), var(--inner-highlight);
     transition: box-shadow 0.3s, filter 0.3s;
   }
   .button:hover {
