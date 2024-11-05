@@ -3,11 +3,12 @@
 
   export let name: string;
   export let color: string = "currentcolor";
-  export let size: number | string = "auto";
+  export let width: number | string | undefined = undefined;
+  export let height: number | string | undefined = undefined;
 
   let Icon: typeof SvelteComponent | null = null;
 
-  async function loadToyComponent(name: string) {
+  async function tryLoadIcon(name: string) {
     try {
       Icon = (await import(`./${name}.svelte`)).default;
     } catch (error) {
@@ -17,7 +18,7 @@
     }
   }
 
-  $: loadToyComponent(name);
+  $: tryLoadIcon(name);
 </script>
 
-<svelte:component this={Icon} {size} {color} />
+<svelte:component this={Icon} {width} {height} {color} />

@@ -9,7 +9,7 @@
 <a {href} class="pill">
   <h2>{heading}</h2>
   <div class="icon">
-    <DynamicIcon name={iconName} size={120} />
+    <DynamicIcon name={iconName} width="100%" height="100%" />
   </div>
 </a>
 
@@ -32,5 +32,6 @@
   }
   .icon {
     color: var(--secondary);
+    width: 120px;
   }
 </style>
