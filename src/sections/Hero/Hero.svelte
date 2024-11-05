@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, FeaturedContent } from "$components";
+  import { Pill, FeaturedContent } from "$components";
 </script>
 
 <div class="hero">
@@ -13,6 +13,11 @@
     />
   </div>
   <div class="fire">
+    <div class="icons">
+      <Pill iconName={"FoodTruck"} heading="Food Truck" href="/" />
+      <Pill iconName={"Catering"} heading="Catering" href="/" />
+      <Pill iconName={"Restaurant"} heading="Restaurant" href="/" />
+    </div>
   </div>
 </div>
 
@@ -55,5 +60,11 @@
     background-repeat: repeat-x;
     background-position: bottom;
     background-size: auto var(--fire-height);
+  }
+  .icons {
+    display: flex;
+    gap: var(--size-2);
+    justify-content: center;
+    width: 100%;
   }
 </style>
