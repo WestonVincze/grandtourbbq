@@ -1,5 +1,5 @@
 <script lang="ts">
-
+	import { PageHeader } from "$components";
 </script>
 
-CONTACT
+<PageHeader title="Let's get in touch" imageUrl="images/featured.jpeg" />

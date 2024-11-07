@@ -1,5 +1,5 @@
 <script lang="ts">
-
+	import { PageHeader } from "$components";
 </script>
 
-EVENTS
+<PageHeader title="Events" imageUrl="images/featured.jpeg" />

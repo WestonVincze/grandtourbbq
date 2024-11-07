@@ -1,5 +1,5 @@
 <script lang="ts">
-
+	import { PageHeader } from "$components";
 </script>
 
-RESTAURANT
+<PageHeader title="Authentic Smoked BBQ" imageUrl="images/featured.jpeg" />

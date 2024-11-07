@@ -1,5 +1,5 @@
 <script lang="ts">
-  import type { Image } from "src/types";
+  import type { Image } from "$types";
 	import { Button } from "$components";
 
   type CTA = {

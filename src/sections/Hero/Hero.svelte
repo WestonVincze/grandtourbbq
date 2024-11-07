@@ -14,9 +14,9 @@
   </div>
   <div class="fire">
     <div class="icons">
-      <Pill iconName={"FoodTruck"} heading="Food Truck" href="/" />
-      <Pill iconName={"Catering"} heading="Catering" href="/" />
-      <Pill iconName={"Restaurant"} heading="Restaurant" href="/" />
+      <Pill iconName={"FoodTruck"} heading="Food Truck" href="/events" />
+      <Pill iconName={"Catering"} heading="Catering" href="/catering" />
+      <Pill iconName={"Restaurant"} heading="Restaurant" href="/restaurant" />
     </div>
   </div>
 </div>
