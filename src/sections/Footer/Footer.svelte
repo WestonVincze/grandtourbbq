@@ -87,6 +87,6 @@
   }
   .copyright, .hst {
     color: var(--gray-light);
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
   }
 </style>

@@ -9,7 +9,9 @@
   <nav>
     <div class="container">
       <div class="brand">
-        <img class="logo" src={Logo} alt="Grand Tour BBQ Logo" />
+        <a href="/">
+          <img class="logo" src={Logo} alt="Grand Tour BBQ Logo" />
+        </a>
         <span>Grand Tour BBQ</span>
       </div>
 
@@ -59,7 +61,7 @@
     display: flex;
     justify-content: space-between;
     gap: var(--size-3);
-    font-size: var(--font-size-md);
+    font-size: var(--font-size-sm);
   }
   .links a {
     position: relative;
