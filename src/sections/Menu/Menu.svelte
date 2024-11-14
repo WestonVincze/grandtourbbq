@@ -21,7 +21,7 @@
   <h2>{category.name}</h2>
   <p>{category.description}</p>
 
-  {#each category.types as item}
+  {#each category.items as item}
   <div class="item">
     <h3>{item.name}</h3>
     <p>{item.description}</p>

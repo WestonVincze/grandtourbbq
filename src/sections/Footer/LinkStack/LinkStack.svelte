@@ -9,7 +9,7 @@
 </script>
 
 <div>
-  <h3>{heading}</h3>
+  <h4>{heading}</h4>
 
   <div class="links">
     {#each links as link}
@@ -19,7 +19,7 @@
 </div>
 
 <style>
-  h3 {
+  h4 {
     text-transform: uppercase;
     font-weight: 800;
     margin-bottom: var(--size-1);
@@ -27,7 +27,7 @@
   .links {
     display: flex;
     flex-direction: column;
-    font-size: var(--font-size-sm);
+    font-size: var(--font-size-xs);
     font-weight: 300;
   }
 </style>

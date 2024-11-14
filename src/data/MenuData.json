@@ -3,52 +3,62 @@
     {
       "name": "Poutine",
       "description": "Smart and delicious food combinations. If Aristotle were here today, he would probably choose to eat from this menu.",
-      "types": [
+      "items": [
         {
           "name": "Classic",
-          "description": "Twice fried with vegan gravy and curds"
+          "description": "Twice fried with vegan gravy and curds",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "BBQ Chicken",
-          "description": "BBQ chicken with our spicy aioli and mango salsa"
+          "description": "BBQ chicken with our spicy aioli and mango salsa",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "Pulled Pork",
-          "description": "8 hour smoked pork"
+          "description": "8 hour smoked pork",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "Smoked Brisket",
-          "description": "Served with our homemade smoked beans"
+          "description": "Served with our homemade smoked beans",
+          "imageUrl": "images/placeholder.png"
         }
       ]
     },
     {
       "name": "Sandwiches",
       "description": "How much better could these simple items be? None more better.",
-      "types": [
+      "items": [
         {
           "name": "Grilled Cheese with Smoked Peameal",
-          "description": "Grilled cheese with peameal smoked with cherry wood"
+          "description": "Grilled cheese with peameal smoked with cherry wood",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "BBQ Chicken Wrap",
-          "description": "BBQ Chicken with our mango salsa, mild spicy aoli, lettuce and tomato"
+          "description": "BBQ Chicken with our mango salsa, mild spicy aoli, lettuce and tomato",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "Smoked Peameal BLT",
-          "description": "Our smoked peameal bacon with lettuce and tomato and aged cheddar cheese"
+          "description": "Our smoked peameal bacon with lettuce and tomato and aged cheddar cheese",
+          "imageUrl": "images/placeholder.png"
         },
         {
-          "name": "Deep Fried Tomato Sandwich ",
-          "description": "Deep fried tomato slices fried in our signature spiced batter"
+          "name": "Deep Fried Tomato Sandwich",
+          "description": "Deep fried tomato slices fried in our signature spiced batter",
+          "imageUrl": "images/placeholder.png"
         },
         {
-          "name": "Pulled Pork Sandwich ",
-          "description": "8 hour smoked pork on a bun with our smoked beans and home made coleslaw"
+          "name": "Pulled Pork Sandwich",
+          "description": "8 hour smoked pork on a bun with our smoked beans and home made coleslaw",
+          "imageUrl": "images/placeholder.png"
         },
         {
           "name": "Brisket on a Bun",
-          "description": "It takes forever to bbq - that's why we look so tired"
+          "description": "It takes forever to bbq - that's why we look so tired",
+          "imageUrl": "images/placeholder.png"
         }
       ]
     }
