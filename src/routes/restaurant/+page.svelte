@@ -1,13 +1,14 @@
 <script lang="ts">
 	import { PageHeader } from "$components";
 	import { MenuData } from "$data";
+	import { CTA } from "$sections";
 </script>
 
 <PageHeader title="Authentic Smoked BBQ" imageUrl="images/featured.jpeg" />
 
 <div class="container">
 	<h2>
-		<span>Restaurant Menu</span>
+		<span class="underline">Restaurant Menu</span>
 	</h2>
 
 	{#each MenuData.categories as category}
@@ -27,14 +28,12 @@
 	{/each}
 </div>
 
+<CTA />
+
 <style>
 	h2 {
 		text-align: center;
 		margin-top: var(--size-3);
-		margin-bottom: var(--size-4);
-	}
-	h2 span {
-		border-bottom: 2px solid var(--accent);
 	}
 
 	.category {

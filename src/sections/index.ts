@@ -1,3 +1,4 @@
+export { default as CTA } from "./CTA/CTA.svelte";
 export { default as Events } from "./Events/Events.svelte";
 export { default as Footer } from "./Footer/Footer.svelte";
 export { default as Header } from "./Header/Header.svelte";
